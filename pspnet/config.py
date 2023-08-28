@@ -1,0 +1,16 @@
+LR=0.0001
+IMG_SIZE=224
+ENCODER = 'efficientnet-b0'
+WEIGHTS = 'imagenet'
+DEVICE = 'cuda'
+EPOCHS=350
+TRAIN_IMAGE_PATH=""
+TRAIN_MASK_PATH=""
+SAVE_MODEL_PATH="/home/veeresh/segmentation/pspnet/saved_models/"
+PREDICTED_BINARY_MASK_PATH="/home/veeresh/segmentation/pspnet/predicted_mask/"
+SEGMENTED_OUTPUT_PATH="/home/veeresh/segmentation/pspnet/segmented_output/"
+SEGMENTED_COMBINED_IMAGE_PATH="/home/veeresh/segmentation/pspnet/combined_results/"
+ACTUAL_IMAGE_PATH="/home/veeresh/segmentation/pspnet/actual_images/"
+TEST_PATH=""
+TEST_MASK_PATH=""
+ACTUAL_BINARY_MASK_PATH="/home/veeresh/segmentation/pspnet/actual_masks/"
